@@ -1,0 +1,208 @@
+header {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  background-image: linear-gradient(to top, #b50c6c, #b03d8f, #a65cad, #9975c3, #8e8cd2, #829de0, #78adea, #72bcf0, #5dcdf9,#4bedf9);
+  height: 100vh;
+}
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 300%;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  line-height: 1.5;
+}
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  line-height: 1.5;
+}
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 180%;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  line-height: 1.5;
+}
+.instruccion-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+.texto {
+  cursor: default;
+  resize: none;
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  width: 30%;
+  height: 100px;
+  color: #000000;
+  background-color: #b96da0;
+  border: 3px solid #000000;
+  border-radius: 14px ;
+  box-shadow: 10px 9px 30px #000000;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.resultado {
+  cursor: default;
+  resize: none;
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  width: 30%;
+  height: 100px;
+  color: #000000;
+  background-color: #2b7a88;
+  border: 3px solid #000000;
+  border-radius: 14px ;
+  box-shadow: 10px 9px 30px #000000;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.botoncitos {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.cifrar-btn {
+  cursor: pointer;
+  background: linear-gradient( #829de0, #662f61);
+  border-radius: 14px;
+  box-shadow: 10px 9px 30px #020000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 12px;
+  margin-right: 25px;
+}
+.posiciones-btn {
+  cursor: pointer;
+  background: linear-gradient( #96198f, #42133e);
+  border-radius: 10px;
+  box-shadow: 6px 5px 24px #000000;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 9px;
+  margin-right: 25px;
+}
+
+.descifrar-btn {
+  cursor: pointer;
+  background: linear-gradient( #829de0, #662f61);
+  border-radius: 14px;
+  box-shadow: 10px 9px 30px #020000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 12px;
+}
+.start-btn {
+  cursor: pointer;
+  background: linear-gradient( #829de0, #662f61);
+  border-radius: 14px;
+  box-shadow: 10px 9px 30px #020000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 12px; 
+}
+.restablecer-btn {
+  cursor: pointer;
+  background: linear-gradient( #829de0, #662f61);
+  border-radius: 14px;
+  box-shadow: 10px 9px 30px #020000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 12px; 
+}
+
+::placeholder {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+.posiciones {
+  font-family: 'Courier Prime', monospace;
+  font-size: 15px;
+  color: rgb(15, 56, 105);
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  border: 2px solid #765af080;
+  border-radius: 8px 8px 8px 8px;
+  transition-duration: 0.4s;
+}
+.heart {
+  position: absolute;
+  z-index: 9999;
+  width: 30px;
+  height: 30px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/640px-Heart_coraz%C3%B3n.svg.png');
+  background-size: contain;
+  animation: heart 1s linear;
+}
+
+@keyframes heart {
+  0% {
+    transform: translate(0, 0) rotate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-100px, -100px) rotate(-720deg);
+    opacity: 0;
+  }
+}
+.mario-imag {
+  display: inline-block;
+  padding:5px;
+  box-sizing: border-box;
+}
+.rey-Booimg {
+  position: absolute;
+  left: 20px; /* Cambia este valor para ajustar el margen izquierdo */
+  top: 20px; /* Cambia este valor para ajustar el margen superior */
+  max-width: 50%;
+  max-height: 50%;
+}
+.yoshi-imag {
+  display: inline-block;
+  padding:5px;
+  box-sizing: border-box;
+}
+.yoshi-Verdeimg {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  max-width: 50%;
+  max-height: 50%;
+}
+.btn-start {
+  display: flex;
+  justify-content: center;
+}

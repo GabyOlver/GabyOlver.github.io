@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="root">
+    <header>
+      <h1> Mensaje Secreto !!!</h1>
+    </header>
+    <h2>Hola!!<br>
+      Vamos a crear un mensaje secreto </h2>
+    <h3>Ahora nadie sabra que es lo que le quieres enviar a la persona que amas.....<br>
+      Vamos a iniciar !!!</h3>
+  </div>
+  <div class="btn-start">
+    <input type="button" id="Iniciar" value="Iniciar" class="start-btn">
+  </div>
+  <div id="hearts-container"></div> 
+  <form id="cipherCaesar">
+    <div class="instruccion-text">
+      Primero ingresaras el texto que deseas cifrar <br>
+      y despues ingresaras el numero de posiciones con las que quieres cifrar tu mensaje, <br>
+      unicamente entre 1 y 33:
+    </div>
+    <br>
+    <form id="allButtons" class="cajitas-btns">
+      <div>
+        <textarea type="text" id="texto" class="texto" placeholder="Frase" rows="6" cols="35"></textarea>
+        <div class="botoncitos">
+          <button type="button" id="cifrar" class="cifrar-btn">Cifrar</button>
+          <input type="number" id="posiciones" class="posiciones-btn" placeholder="#" min="1" max="33">
+          <button type="button" id="descifrar" class="descifrar-btn">Descifrar</button>
+        </div>
+        <textarea name="resultado" id="resultado" class="resultado" placeholder="Mensaje" cols="35" rows="6"></textarea>
+      </div>
+      <input type="button" id="regresar" value="Regresar" class="restablecer-btn">
+    </form>
+  </form>
+  <div class="mario-imag">
+    <img src="https://i.pinimg.com/originals/6a/92/6a/6a926a53a553842f521c26d64e5928ac.png" class="rey-Booimg">
+  </div>
+  <div class="yoshi-imag">
+    <img src="https://mario.wiki.gallery/images/e/e8/MN_Father_Day_Coupon_Printable_Yoshi_Artwork.png" class="yoshi-Verdeimg">
+  </div>
+  <script src="index.js" type="module"></script>
+
+</body>
+
+</html>
